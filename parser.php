@@ -1850,7 +1850,7 @@ while ($xml->read()) {
     	$mail->Port       = 465;                    // set the SMTP server port
     	$mail->Host       = "smtp.googlemail.com"; // SMTP server
     	$mail->Username   = "domain.sk.logs@gmail.com";     // SMTP server username
-    	$mail->Password   = "nebukadnecar";            // SMTP server password
+    	$mail->Password   = "[password]";            // SMTP server password
     	
     	$mail->CharSet    = "utf-8";            // kódování mailu
 
